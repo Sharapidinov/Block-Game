@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("img/bg-cont.jpg") center/cover no-repeat;
+    height: 100vh;
+}
+.container{
+    padding: 50px;
+    display: flex;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+span{
+
+    padding: 10px;
+    color: #7d1dbd;
+    font-weight: bold;
+    font-size: 20px;
+}
+.difficulty{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #7d1dbd;
+}
+#difficulty{
+    background: none;
+    border: none;
+    color: #7d1dbd;
+    font-weight: bold;
+    font-size: 20px;
+}
+.points{
+    display:block;
+}
+.fill{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    /*margin: 0 auto;*/
+    border: 2px solid black;
+    margin-left: 50px ;
+}
+button{
+    width: 50px;
+    height: 30px;
+    background: none;
+    border-radius: 20%;
+    border: 1px solid black;
+    color: #7d1dbd;
+    font-weight: bold;
+    font-size: 20px;
+}
+.red {
+    background: #bd9554;
+}
+.green{
+    background: #4ebd74;
+}
+.blue{
+    background: #177abd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+}
+.cur-levels{
+ text-align: center;
+}
+.hard{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+.hardmode{
+    cursor: none;
+}
+
+.square-border{
+    border: 1px dashed black;
+}
